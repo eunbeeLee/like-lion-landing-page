@@ -477,3 +477,32 @@ nav {
   height: 10px;
   margin: 2px 8px 0px;
 }
+
+.top-banner-big {
+  width: 1024px;
+  background: var(--top-banner-bg);
+  color: var(--top-banner-font);
+  position: relative;
+}
+
+.top-banner-big__image-container {
+  width: 1024px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+}
+
+.top-banner__image-big {
+  width: 1024px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.top-banner-big__content {
+  width: 1024px;
+  height: 400px;
+  position: absolute;
+  z-index: 5;
+}
